@@ -1,0 +1,51 @@
+body{
+	width: 99%;
+}
+.header{
+	margin: 50 auto 100 auto;
+	text-align: center;
+	font-size: 200%;
+}
+#first,#second,#third{
+	font-size: 20px;
+	border: 3px solid black;
+	margin: 1%;
+	background-color: grey;
+}
+#i1,#i2,#i3{
+	float: right;
+	margin-bottom: -10;
+	padding: 5px 10px 5px 10px;
+	border-width: 0 0 3px 3px;
+	border-color: black;
+	border-style: solid;
+}
+#p2,#p3,#p1{
+	clear: both;
+	padding: 5px;
+}
+#i1{
+	background-color: pink;
+}
+#i2{
+	background-color: red;
+}
+#i3{
+	background-color: yellow;
+}
+@media(min-width: 992px){
+	#first,#second,#third{
+		width: 30%;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#first,#second{
+		width: 47%;
+		float: left;
+	}
+	#third{
+		width: 96.8%;
+		clear: both;
+	}
+}
